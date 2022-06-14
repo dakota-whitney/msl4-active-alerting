@@ -1,0 +1,15 @@
+{
+  "name": "akamai-eg",
+  "version": "1.0.0",
+  "description": "Node module for automating OTS Akamai processes",
+  "main": "eg-mailer.js",
+  "dependencies": {
+    "akamai-edgegrid": "^3.2.0",
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dakota Whitney",
+  "license": "ISC"
+}
