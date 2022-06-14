@@ -1,7 +1,7 @@
 const EdgeGrid = require('akamai-edgegrid');
 const axios = require('axios');
-const { clientToken, clientSecret, accessToken, baseUri, cpCodes } = require('./eg-config.json');
-//const { clientToken, clientSecret, accessToken, baseUri, cpCodes } = require(process.env.egConfig);
+//const { clientToken, clientSecret, accessToken, baseUri, cpCodes } = require('./eg-config.json');
+const { clientToken, clientSecret, accessToken, baseUri, cpCodes } = require(process.env.egConfig);
 
 const eg = new EdgeGrid(clientToken, clientSecret, accessToken, baseUri);
 
